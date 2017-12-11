@@ -3,7 +3,28 @@ import BeginSakura from "./Sakura/";
 import {removeEle, mediePlay} from "./Util";
 
 let skipFlag = false;
-
+// 手机端处理
+if (document.documentElement.clientWidth < 800) {
+    skipFlag = true;
+    removeEle("loading");
+    removeEle("animeScene");
+    TweenLite.to('.bgMask', 3, {
+        height: "0%",
+        ease: Power2.easeInOut,
+        onStart:()=>{
+            BeginSakura();
+        },
+        onComplete:()=>{
+            removeEle("bgMaskTop");
+            removeEle("bgMaskBottom");
+            buttonAnime();
+        }
+    })
+    //没有适配
+    removeEle("blogBtn");
+    removeEle("aboutBtn");
+    removeEle("animeBtn");
+}
 function preLoad(){
     let startTime = new Date(),timeOutFlag = false;
     setTimeout(() => {

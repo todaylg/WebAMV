@@ -78,7 +78,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 let skipFlag = false;
-
+// 手机端处理
+if (document.documentElement.clientWidth < 800) {
+    skipFlag = true;
+    Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("loading");
+    Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("animeScene");
+    __WEBPACK_IMPORTED_MODULE_0_gsap__["TweenLite"].to('.bgMask', 3, {
+        height: "0%",
+        ease: Power2.easeInOut,
+        onStart: () => {
+            Object(__WEBPACK_IMPORTED_MODULE_1__Sakura___["a" /* default */])();
+        },
+        onComplete: () => {
+            Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("bgMaskTop");
+            Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("bgMaskBottom");
+            buttonAnime();
+        }
+    });
+    //没有适配
+    Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("blogBtn");
+    Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("aboutBtn");
+    Object(__WEBPACK_IMPORTED_MODULE_2__Util__["b" /* removeEle */])("animeBtn");
+}
 function preLoad() {
     let startTime = new Date(),
         timeOutFlag = false;
