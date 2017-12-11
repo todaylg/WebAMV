@@ -1,0 +1,23 @@
+{
+  "name": "todaylg.github.io",
+  "version": "0.0.1",
+  "description": "this is LG's home page",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --watch",
+    "watch": "cross-env NODE_ENV=development webpack --watch --color",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "todaylg",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.0.5",
+    "file-loader": "^1.1.4",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "gsap": "^1.20.3"
+  }
+}
