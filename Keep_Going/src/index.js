@@ -663,7 +663,7 @@ function buttonAnime(){
     TweenLite.to("#githubBtn", u, {
         opacity:1,
         ease:c,
-        delay:o+0.15
+        delay:o+0.25
     })
     TweenLite.to("#twitterBtn", u, {
         opacity:1,
@@ -671,6 +671,11 @@ function buttonAnime(){
         delay:o+0.15
     })
     TweenLite.to("#aboutBtn", u, {
+        opacity:1,
+        ease:c,
+        delay:o+0.25
+    })
+    TweenLite.to("#animeBtn", u, {
         opacity:1,
         ease:c,
         delay:o+0.35

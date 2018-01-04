@@ -252,7 +252,7 @@ width: 200px;
   -webkit-font-smoothing: antialiased;
   font-style: italic;
   letter-spacing: 0.5px;
-  background: url("http://onolqku9h.bkt.clouddn.com/intro_ico_skip.png") no-repeat right 3px;
+  background: url("../My_Image/intro_ico_skip.png") no-repeat right 3px;
   padding: 0 15px 0 0;
 }
 
@@ -316,7 +316,7 @@ width: 200px;
 }
 
 .intro-box-movie .movie-mask,.intro-box-movie-1 .movie-mask,.intro-box-movie-2 .movie-mask ,.intro-box-movie-3 .movie-mask{
-  background: url("http://onolqku9h.bkt.clouddn.com/intro_mask.png") no-repeat 0 0;
+  background: url("../My_Image/intro_mask.png") no-repeat 0 0;
   background-size: cover;
   top: 0;
   left: 0;
@@ -356,7 +356,7 @@ width: 200px;
 #intro-box-Bw .intro-box-text .t3,
 #intro-box-Bw .intro-box-text .t4,
 #intro-box-Bw .intro-box-text .t5{
-  background: url("http://okra89ctt.bkt.clouddn.com/En.png") no-repeat 0 0;
+  background: url("../My_Image/En.png") no-repeat 0 0;
   width: 60px;
   height: 120px;
   left:50%;
@@ -400,7 +400,7 @@ width: 200px;
 #intro-box-Bw .intro-box-text .t16,
 #intro-box-Bw .intro-box-text .t17,
 #intro-box-Bw .intro-box-text .t18{
-  background: url("http://okra89ctt.bkt.clouddn.com/En.png") no-repeat 0 0;
+  background: url("../My_Image/En.png") no-repeat 0 0;
   width: 46px;
   height: 102px;
   left:50%;
@@ -497,7 +497,7 @@ width: 200px;
 }
 
 #intro-box-EF .intro-box-text span {
-  background: url("http://onolqku9h.bkt.clouddn.com/EF.png") no-repeat 0 0;
+  background: url("../My_Image/EF.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -613,7 +613,7 @@ width: 200px;
   margin-left: 205px;
 }
 #intro-box-Eden .intro-box-name span {
-  background: url("http://onolqku9h.bkt.clouddn.com/Sion.png") no-repeat 0 0;
+  background: url("../My_Image/Sion.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   width: 330px;
@@ -626,7 +626,7 @@ width: 200px;
 }
 
 #intro-box-Eden .intro-box-text span {
-  background: url("http://onolqku9h.bkt.clouddn.com/Eden.png") no-repeat 0 0;
+  background: url("../My_Image/Eden.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -710,14 +710,14 @@ width: 200px;
   top:420px;
 }
 #intro-box-STM .intro-box-name span {
-  background: url("http://onolqku9h.bkt.clouddn.com/And.png") no-repeat 0 0;
+  background: url("../My_Image/And.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   width: 330px;
   height: 110px;
 }
 #intro-box-STM .intro-box-text span {
-  background: url("http://onolqku9h.bkt.clouddn.com/以及.png") no-repeat 0 0;
+  background: url("../My_Image/以及.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -761,7 +761,7 @@ width: 200px;
 }
 
 #intro-box-STM .intro-box-MYSZMDXZ span {
-  background: url("http://onolqku9h.bkt.clouddn.com/这一切都是命运石之门的选择.png") no-repeat 0 0;
+  background: url("../My_Image/这一切都是命运石之门的选择.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -845,7 +845,7 @@ width: 200px;
 }
 
 #intro-box-STM .intro-box-EPC span {
-  background: url("http://onolqku9h.bkt.clouddn.com/ElPsyCongroo.png") no-repeat 0 0;
+  background: url("../My_Image/ElPsyCongroo.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1050,7 +1050,7 @@ width: 200px;
 }
 .img-mask{
      position: absolute;
-      background: url("http://onolqku9h.bkt.clouddn.com/intro_mask.png") no-repeat 0 0;
+      background: url("../My_Image/intro_mask.png") no-repeat 0 0;
       background-size: cover;
       top: 0;
       left: 0;
@@ -1129,11 +1129,11 @@ width: 200px;
   z-index: 11;
 }
 .SAO-bg {
-  background: url("http://onolqku9h.bkt.clouddn.com/艾恩葛朗特_bg.png") no-repeat center;
+  background: url("../My_Image/艾恩葛朗特_bg.png") no-repeat center;
   background-size: cover;
 }
 .SAO-front {
-  background: url("http://onolqku9h.bkt.clouddn.com/艾恩葛朗特.png") no-repeat center;
+  background: url("../My_Image/艾恩葛朗特.png") no-repeat center;
   background-size: cover;
 }
 .sakura-front {
@@ -1157,19 +1157,19 @@ width: 200px;
 }
 
 .sakura-front-l {
-  background: url("http://onolqku9h.bkt.clouddn.com/main_sakura_front_l.png") no-repeat center;
+  background: url("../My_Image/main_sakura_front_l.png") no-repeat center;
   background-size: cover;
   z-index: 3;
 }
 
 .sakura-front-m {
-  background: url("http://onolqku9h.bkt.clouddn.com/main_sakura_front_m.png") no-repeat center;
+  background: url("../My_Image/main_sakura_front_m.png") no-repeat center;
   background-size: cover;
   z-index: 2;
 }
 
 .sakura-front-s {
-  background: url("http://onolqku9h.bkt.clouddn.com/main_sakura_front_s.png") no-repeat center;
+  background: url("../My_Image/main_sakura_front_s.png") no-repeat center;
   background-size: cover;
   z-index: 1;
 }

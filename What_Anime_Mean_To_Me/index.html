@@ -1,202 +1,279 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Welcome to LG's Homepage!</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="author" content="LG">
-    <link rel="stylesheet" href="./styles/Welcome.css">
-     <script src="./scripts/Jquery.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="author" content="LG">
+  <link rel="stylesheet" href="./styles/Welcome.css">
+  <script src="./scripts/Jquery.js"></script>
 </head>
-    <audio id="SAO_welcome" src="http://okra89ctt.bkt.clouddn.com/SAO_Welcome.wav"></audio>
-    <audio id="left_click" src="http://okra89ctt.bkt.clouddn.com/SAO_Click.wav"></audio>
-    <audio id="right_click" src="http://okra89ctt.bkt.clouddn.com/SAO_Launcher.wav"></audio>
-    <audio id="bgm_welcome" src="http://okra89ctt.bkt.clouddn.com/bgm_test.mp3"></audio>
+<audio id="SAO_welcome" src="./audio/SAO_Welcome.wav"></audio>
+<audio id="left_click" src="./audio/SAO_Click.wav"></audio>
+<audio id="right_click" src="./audio/SAO_Launcher.wav"></audio>
+<audio id="bgm_welcome" src="./audio/bgm_test.mp3"></audio>
+
 <body>
-<div class="loading">
+  <div class="loading">
     <div id="load">
-        <div class="loading-dot"></div>
-        <div class="loading-dot"></div>
-        <div class="loading-dot"></div>
-        <div class="loading-dot"></div>
-        <div class="loading-dot"></div>
-        <div class="loading-dot"></div>
-</div>
-   <div class="counter">
-     <p>加载图片中</p> 
-     <h1>0%</h1>
-     <hr> 
-   </div>
- </div>
-    <div id="SAO_Menu">
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+      <div class="loading-dot"></div>
+    </div>
+    <div class="counter">
+      <p>加载图片中</p>
+      <h1>0%</h1>
+      <hr>
+    </div>
+  </div>
+  <div id="SAO_Menu">
     <div id="panel">
       <span class="ok_button"></span>
       <span class="cancle_button"></span>
-      <audio id="SAO_Launcher" src="http://okra89ctt.bkt.clouddn.com/SAO_Launcher.wav"></audio>
-      <audio id="SAO_Dismiss" src="http://okra89ctt.bkt.clouddn.com/SAO_Dismiss.wav"></audio>
-      <audio id="SAO_Click" src="http://okra89ctt.bkt.clouddn.com/SAO_Click.wav"></audio>
+      <audio id="SAO_Launcher" src="./audio/SAO_Launcher.wav"></audio>
+      <audio id="SAO_Dismiss" src="./audio/SAO_Dismiss.wav"></audio>
+      <audio id="SAO_Click" src="./audio/SAO_Click.wav"></audio>
     </div>
   </div>
-    <div class="LG_stage">
-      <main>
-       <div class="LG-intro">
-          <div class="intro-btn-skip"><a href="#">Skip</a></div>
-          <div class="LG-intro-inner"><!--总容器-->
-            <!--Begin_words-->
-            <div class="intro-box-pos intro-box-pos-Bw" >
-              <div id="intro-box-Bw" class="intro-box">
-                <div class="intro-box-text-group">
-                  <div class="intro-box-text"><span class="t1"></span><span class="t2"></span><span class="t3"></span><span class="t4"></span><span class="t5"></span><span class="t6"></span><span class="t7"></span><span class="t8"></span><span class="t9"></span><span class="t10"></span><span class="t11"></span><span class="t12"></span><span class="t13"></span><span class="t14"></span><span class="t15"></span><span class="t16"></span><span class="t17"></span><span class="t18"></span></div>
+  <div class="LG_stage">
+    <main>
+      <div class="LG-intro">
+        <div class="intro-btn-skip">
+          <a href="#">Skip</a>
+        </div>
+        <div class="LG-intro-inner">
+          <!--总容器-->
+          <!--Begin_words-->
+          <div class="intro-box-pos intro-box-pos-Bw">
+            <div id="intro-box-Bw" class="intro-box">
+              <div class="intro-box-text-group">
+                <div class="intro-box-text">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                  <span class="t3"></span>
+                  <span class="t4"></span>
+                  <span class="t5"></span>
+                  <span class="t6"></span>
+                  <span class="t7"></span>
+                  <span class="t8"></span>
+                  <span class="t9"></span>
+                  <span class="t10"></span>
+                  <span class="t11"></span>
+                  <span class="t12"></span>
+                  <span class="t13"></span>
+                  <span class="t14"></span>
+                  <span class="t15"></span>
+                  <span class="t16"></span>
+                  <span class="t17"></span>
+                  <span class="t18"></span>
                 </div>
               </div>
             </div>
-            <!--EF-->
-           <div class="intro-box-pos intro-box-pos-EF">
-              <div id="intro-box-EF" class="intro-box">
+          </div>
+          <!--EF-->
+          <div class="intro-box-pos intro-box-pos-EF">
+            <div id="intro-box-EF" class="intro-box">
               <div class="intro-box-text-group">
-                  <div class="intro-box-text"><span class="t1"></span><span class="t2"></span><span class="t3"></span><span class="t4"></span><span class="t5"></span><span class="t6"></span><span class="t7"></span><span class="t8"></span><span class="t9"></span><span class="t10"></span><span class="t11"></span></div>
+                <div class="intro-box-text">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                  <span class="t3"></span>
+                  <span class="t4"></span>
+                  <span class="t5"></span>
+                  <span class="t6"></span>
+                  <span class="t7"></span>
+                  <span class="t8"></span>
+                  <span class="t9"></span>
+                  <span class="t10"></span>
+                  <span class="t11"></span>
                 </div>
-                <div class="intro-box-movie">
-                <div class="movie-mask"></div>
-                <video class="HV-0">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Ef_pre.mp4">
-                </video>
               </div>
-              <div class="intro-box-movie-1">
-                <div class="movie-mask"></div>
-                <video class="HV-1">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Ef_A.mp4">
-                </video>
-              </div>
-              <div class="intro-box-movie-2">
-                <div class="movie-mask"></div>
-                <video class="HV-2">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Ef_B.mp4">
-                </video>
-              </div>
-              <div class="intro-box-movie-3">
-                <div class="movie-mask"></div>
-                <video class="HV-3">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Ef_C.mp4">
-                </video>
-              </div>
-                
-              </div>
-            </div>
-            <!--Eden-->
-             <div class="intro-box-pos intro-box-pos-Eden">
-              <div id="intro-box-Eden" class="intro-box">
-              <div class="intro-box-text-group">
-                  <div class="intro-box-text"><span class="t1"></span><span class="t2"></span><span class="t3"></span><span class="t4"></span></div>
-                  <div class="intro-box-name"><span class="t1"></span><span class="t2"></span></div>
-                </div>
               <div class="intro-box-movie">
                 <div class="movie-mask"></div>
                 <video class="HV-0">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Eden_A_1.mp4">
+                  <source src="./My_Video/Ef_pre.mp4">
                 </video>
               </div>
               <div class="intro-box-movie-1">
                 <div class="movie-mask"></div>
                 <video class="HV-1">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Eden_B.mp4">
+                  <source src="./My_Video/Ef_A.mp4">
                 </video>
               </div>
               <div class="intro-box-movie-2">
                 <div class="movie-mask"></div>
                 <video class="HV-2">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Eden_A_2.mp4">
+                  <source src="./My_Video/Ef_B.mp4">
                 </video>
               </div>
               <div class="intro-box-movie-3">
                 <div class="movie-mask"></div>
                 <video class="HV-3">
-                  <source src="http://okra89ctt.bkt.clouddn.com/Eden_C.mp4">
+                  <source src="./My_Video/Ef_C.mp4">
                 </video>
               </div>
-                
-              </div>
+
             </div>
+          </div>
+          <!--Eden-->
+          <div class="intro-box-pos intro-box-pos-Eden">
+            <div id="intro-box-Eden" class="intro-box">
+              <div class="intro-box-text-group">
+                <div class="intro-box-text">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                  <span class="t3"></span>
+                  <span class="t4"></span>
+                </div>
+                <div class="intro-box-name">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                </div>
+              </div>
+              <div class="intro-box-movie">
+                <div class="movie-mask"></div>
+                <video class="HV-0">
+                  <source src="./My_Video/Eden_A_1.mp4">
+                </video>
+              </div>
+              <div class="intro-box-movie-1">
+                <div class="movie-mask"></div>
+                <video class="HV-1">
+                  <source src="./My_Video/Eden_B.mp4">
+                </video>
+              </div>
+              <div class="intro-box-movie-2">
+                <div class="movie-mask"></div>
+                <video class="HV-2">
+                  <source src="./My_Video/Eden_A_2.mp4">
+                </video>
+              </div>
+              <div class="intro-box-movie-3">
+                <div class="movie-mask"></div>
+                <video class="HV-3">
+                  <source src="./My_Video/Eden_C.mp4">
+                </video>
+              </div>
+
+            </div>
+          </div>
           <!--STM-->
           <div class="intro-box-pos intro-box-pos-STM">
-               
-              <div id="intro-box-STM" class="intro-box">
+
+            <div id="intro-box-STM" class="intro-box">
               <div class="intro-box-text-group">
-                  <div class="intro-box-text"><span class="t1"></span><span class="t2"></span></div>
-                  <div class="intro-box-name"><span class="t1"></span><span class="t2"></span></div>
-                  <div class="intro-box-MYSZMDXZ"><span class="t1"></span><span class="t2"></span><span class="t3"></span><span class="t4"></span><span class="t5"></span><span class="t6"></span><span class="t7"></span><span class="t8"></span><span class="t9"></span><span class="t10"></span><span class="t11"></span><span class="t12"></span><span class="t13"></span></div>
-                  <div class="intro-box-EPC"><span class="t1"></span><span class="t2"></span><span class="t3"></span><span class="t4"></span><span class="t5"></span><span class="t6"></span><span class="t7"></span><span class="t8"></span><span class="t9"></span><span class="t10"></span><span class="t11"></span><span class="t12"></span></div>
+                <div class="intro-box-text">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
                 </div>
-                <img class="STM_Logo" height="225" width="400" src="http://okra89ctt.bkt.clouddn.com/STM_Logo.png" >
+                <div class="intro-box-name">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                </div>
+                <div class="intro-box-MYSZMDXZ">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                  <span class="t3"></span>
+                  <span class="t4"></span>
+                  <span class="t5"></span>
+                  <span class="t6"></span>
+                  <span class="t7"></span>
+                  <span class="t8"></span>
+                  <span class="t9"></span>
+                  <span class="t10"></span>
+                  <span class="t11"></span>
+                  <span class="t12"></span>
+                  <span class="t13"></span>
+                </div>
+                <div class="intro-box-EPC">
+                  <span class="t1"></span>
+                  <span class="t2"></span>
+                  <span class="t3"></span>
+                  <span class="t4"></span>
+                  <span class="t5"></span>
+                  <span class="t6"></span>
+                  <span class="t7"></span>
+                  <span class="t8"></span>
+                  <span class="t9"></span>
+                  <span class="t10"></span>
+                  <span class="t11"></span>
+                  <span class="t12"></span>
+                </div>
               </div>
-              <img class="STM" src="http://okra89ctt.bkt.clouddn.com/STM_bg.png">
-               <div class="intro-box-movie">
-                  <video class="HV-0">
-                    <source src="http://okra89ctt.bkt.clouddn.com/STM.mp4">
-                  </video>
-                </div>
+              <img class="STM_Logo" height="225" width="400" src="./My_Image/STM_Logo.png">
             </div>
-         <!--BG-->
-            <!--WY_Image-->
-            <div class="intro-box-pos-WY intro-box-pos">
-           <div id="intro-box-WY" class="intro-box">
-              <img class="WY_down" src="http://okra89ctt.bkt.clouddn.com/WY_down.png" height="155" width="269">
-              <img class="WY_1" src="http://okra89ctt.bkt.clouddn.com/WY_1.jpg">
-              <img class="WY_2" src="http://okra89ctt.bkt.clouddn.com/WY_2.jpg">
-              <img class="WY_3" src="http://okra89ctt.bkt.clouddn.com/WY_3.jpg">
-              <img class="WY_4" src="http://okra89ctt.bkt.clouddn.com/WY_4.jpg">
-              <img class="WY_5" src="http://okra89ctt.bkt.clouddn.com/WY_5.jpg">
-              <img class="WY_6" src="http://okra89ctt.bkt.clouddn.com/WY_6.jpg">
-              <img class="WY_7" src="http://okra89ctt.bkt.clouddn.com/WY_7.jpg">
-              <img class="WY_8" src="http://okra89ctt.bkt.clouddn.com/WY_8.jpg">
-            </div> 
+            <img class="STM" src="./My_Image/STM_bg.png">
+            <div class="intro-box-movie">
+              <video class="HV-0">
+                <source src="./My_Video/STM.mp4">
+              </video>
             </div>
-            <!--WY_Video-->
-            <div class="intro-box-pos-WY-V intro-box-pos">
+          </div>
+          <!--BG-->
+          <!--WY_Image-->
+          <div class="intro-box-pos-WY intro-box-pos">
+            <div id="intro-box-WY" class="intro-box">
+              <img class="WY_down" src="./My_Image/WY_down.png" height="155" width="269">
+              <img class="WY_1" src="./My_Image/WY_1.jpg">
+              <img class="WY_2" src="./My_Image/WY_2.jpg">
+              <img class="WY_3" src="./My_Image/WY_3.jpg">
+              <img class="WY_4" src="./My_Image/WY_4.jpg">
+              <img class="WY_5" src="./My_Image/WY_5.jpg">
+              <img class="WY_6" src="./My_Image/WY_6.jpg">
+              <img class="WY_7" src="./My_Image/WY_7.jpg">
+              <img class="WY_8" src="./My_Image/WY_8.jpg">
+            </div>
+          </div>
+          <!--WY_Video-->
+          <div class="intro-box-pos-WY-V intro-box-pos">
             <div id="intro-box-WY-V" class="intro-box">
               <div class="WY_Img_1">
-                 <img class="WY_Fin_1" src="http://okra89ctt.bkt.clouddn.com/WY_Fin_1.png">
-                 <div class="img-mask"></div>
-               </div>
+                <img class="WY_Fin_1" src="./My_Image/WY_Fin_1.png">
+                <div class="img-mask"></div>
+              </div>
               <div class="WY_Img_2">
-                 <img class="WY_Fin_2" src="http://okra89ctt.bkt.clouddn.com/WY_Fin_2.png">
-                 <div class="img-mask"></div>
-               </div>
+                <img class="WY_Fin_2" src="./My_Image/WY_Fin_2.png">
+                <div class="img-mask"></div>
               </div>
-             <img class="WY_Begin" src="http://okra89ctt.bkt.clouddn.com/WY_Begin.png">
-                <div class="intro-box-movie">
-                  <video class="HV-0">
-                    <source src="http://okra89ctt.bkt.clouddn.com/WY.mp4">
-                  </video>
-                </div>
-              <img class="WY_Fin" src="http://okra89ctt.bkt.clouddn.com/WY_Fin.png">
-              </div>
+            </div>
+            <img class="WY_Begin" src="./My_Image/WY_Begin.png">
+            <div class="intro-box-movie">
+              <video class="HV-0">
+                <source src="./My_Video/WY.mp4">
+              </video>
+            </div>
+            <img class="WY_Fin" src="./My_Image/WY_Fin.png">
+          </div>
         </div>
       </div>
       <!--SAO-->
-          <div class="LG-main">
-          <div class="LG-SAO">
+      <div class="LG-main">
+        <div class="LG-SAO">
           <div class="intro-box-movie">
             <video class="HV-0">
-              <source src="http://okra89ctt.bkt.clouddn.com/SAO.mp4">
+              <source src="./My_Video/SAO.mp4">
             </video>
           </div>
-            <div class="SAO-bg"></div>
-            <div class="SAO-title-box">
-                <img class="SAO-title" src="Icons/welcome.png" height="97" width="625">
-                <img class="SAO-tip" src="My_Image/Tips.png" height="60" width="400">
-            </div>
-            <div class="SAO-front"></div>
-            <div class="sakura-front">
-              <div class="sakura-front-l"></div>
-              <div class="sakura-front-m"></div>
-              <div class="sakura-front-s"></div>
-            </div>
+          <div class="SAO-bg"></div>
+          <div class="SAO-title-box">
+            <img class="SAO-title" src="Icons/welcome.png" height="97" width="625">
+            <img class="SAO-tip" src="My_Image/Tips.png" height="60" width="400">
+          </div>
+          <div class="SAO-front"></div>
+          <div class="sakura-front">
+            <div class="sakura-front-l"></div>
+            <div class="sakura-front-m"></div>
+            <div class="sakura-front-s"></div>
           </div>
         </div>
-      </main>
-    </div>
-    </div> 
-   
-    <script src="./scripts/libs.min.js"></script>
-    <script src="./scripts/functions.min.js"></script> 
+      </div>
+    </main>
+  </div>
+  </div>
+
+  <script src="./scripts/libs.min.js"></script>
+  <script src="./scripts/functions.min.js"></script>

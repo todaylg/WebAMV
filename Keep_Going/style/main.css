@@ -156,7 +156,7 @@ html, body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(http://p0skohixv.bkt.clouddn.com/BG.jpg);
+    background-image: url(../Images/BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ html, body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(http://p0skohixv.bkt.clouddn.com/Megumi.png);
+    background-image: url(../Images/Megumi.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ html, body {
 #finText .t6,
 #finText .t7,
 #finText .t8{
-  background: url("http://p0skohixv.bkt.clouddn.com/finTop.png") no-repeat 0 0;
+  background: url("../Images/finTop.png") no-repeat 0 0;
   width: 60px;
   height: 80px;
   left:50%;
@@ -324,7 +324,7 @@ html, body {
 #finText .t10,
 #finText .t11,
 #finText .t12{
-  background: url("http://p0skohixv.bkt.clouddn.com/finBottom.png") no-repeat 0 0;
+  background: url("../Images/finBottom.png") no-repeat 0 0;
   width: 60px;
   height: 80px;
   left:50%;
