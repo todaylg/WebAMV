@@ -10,7 +10,7 @@
 **A Silent Voice**，**My Hero Academia**，**Saekano: How to Raise a Boring Girlfriend**
 
 
-### [Demo](https://todaylg.github.io/)
+### [Demo](http://todaylg.github.io/WebAMV/Keep_Going/)
 
 
 ![image](https://github.com/todaylg/webAMV/blob/master/introduce_image/KG.gif)
@@ -23,7 +23,7 @@
 **EF**，**Eden**，**Steins;Gate**，**Bakemonogatari** , **Sword Art Online**
 
 
-### [Demo](https://todaylg.github.io/What_Anime_Mean_To_Me)
+### [Demo](https://todaylg.github.io/WebAMV/What_Anime_Mean_To_Me)
 
 
 ![image](https://github.com/todaylg/webAMV/blob/master/introduce_image/WAMTM.gif)
